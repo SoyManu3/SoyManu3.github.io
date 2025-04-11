@@ -1,0 +1,38 @@
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  .skill-container {
+    display: flex;
+    align-items: center;
+    border-left: 10px solid #f44336;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .skill-left {
+    font-size: 18px;
+    color: #f44336;
+    padding-right: 10px;
+  }
+  
+  .skill-right {
+    flex-grow: 1;
+  }
+  
+  .skill-label {
+    font-size: 15px;
+    color: #333;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+  }

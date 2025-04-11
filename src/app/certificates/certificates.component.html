@@ -1,21 +1,15 @@
-<h3>certificates !</h3>
+<h3>Certificates</h3>
+
 <h5>School Certificates</h5>
-<ul *ngFor="let cer of certificates">
-	<li>
-	{{cer.schoolCertificates}} 
+<div *ngFor="let cer of certificates" class="certificate-container">
+  <div class="certificate-content">
+    <div class="certificate-text">{{ cer.schoolCertificates }}</div>
+  </div>
+</div>
 
-
-
-	</li>
-</ul>
-
-<h5>skills Certificates</h5>
-
-<ul *ngFor="let cer of certificates">
-	<li>
-
-	 {{cer.skillsCertificates}}
-
-
-	</li>
-</ul>
+<h5>Skills Certificates</h5>
+<div *ngFor="let cer of certificates" class="certificate-container">
+  <div class="certificate-content">
+    <div class="certificate-text">{{ cer.skillsCertificates }}</div>
+  </div>
+</div>

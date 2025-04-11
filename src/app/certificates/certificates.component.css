@@ -1,0 +1,33 @@
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .certificate-container {
+    border-left: 10px solid #f44336;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .certificate-content {
+    padding-left: 10px;
+  }
+  
+  .certificate-text {
+    font-size: 15px;
+    color: #333;
+  }
+  

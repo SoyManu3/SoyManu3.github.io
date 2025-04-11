@@ -1,15 +1,21 @@
-<tr>
-	<td class="header-info">
-	  {{header.name}}
-	  {{header.goalLife}}
-	</td>
-	<td class="profile-picture">
-	  <img src="{{header.photoUrl}}" width="200" height="200" alt="Profile Picture">
-	</td>
-	<td class="header-contact">
-	  {{header.email}}<br>
-	  {{header.phoneNumber}}<br>
-	  {{header.location}}<br>
-	  {{header.socialNetwork}}
-	</td>
-  </tr>
+<div class="header-container">
+	<div class="header-left">
+	  <div class="header-square"></div>
+	  <div class="profile-text">
+		<div class="profile-name">{{ header.name }}</div>
+		<div class="profile-description">{{ header.goalLife }}</div>
+	  </div>
+	</div>
+  
+	<div class="header-center">
+	  <img class="profile-picture" src="{{ header.photoUrl }}" alt="Profile Picture">
+	</div>
+  
+	<div class="header-contact">
+	  <div><i class="fas fa-envelope"></i> {{ header.email }}</div>
+	  <div><i class="fas fa-phone-alt"></i> {{ header.phoneNumber }}</div>
+	  <div><i class="fas fa-map-marker-alt"></i> {{ header.location }}</div>
+	  <div><i class="fab fa-instagram"></i> {{ header.socialNetwork }}</div>
+	</div>
+  </div>
+  

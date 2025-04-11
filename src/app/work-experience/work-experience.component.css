@@ -1,0 +1,66 @@
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  .job-container {
+    display: flex;
+    margin-bottom: 25px;
+    border-left: 10px solid #f44336;
+    padding-left: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    position: relative;
+  }
+  
+  .job-left {
+    width: 160px;
+    color: #f44336;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .job-right {
+    flex: 1;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .job-location {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 13px;
+    color: #f44336;
+    font-style: italic;
+  }
+  
+  .job-position {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .job-company {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .job-label {
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .job-accomplishments {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  

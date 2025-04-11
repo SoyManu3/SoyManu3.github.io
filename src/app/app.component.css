@@ -1,0 +1,30 @@
+
+
+table {
+    background-color: #f7f7f7;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #333;
+  }
+  
+  td {
+    padding: 20px;
+    vertical-align: middle;
+    border-bottom: 2px solid #333;
+    text-align: center;
+  }
+  
+  tr {
+    border-bottom: 2px solid #333;
+  }
+  
+  h1 {
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 32px;
+  }
+  

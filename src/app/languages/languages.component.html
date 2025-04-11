@@ -1,9 +1,10 @@
-<h3>Languages !</h3>
-<ul *ngFor="let lan of languages">
-  <li>
-    {{ lan.languages}}
+<h3>Languages</h3>
 
-  </li>
-</ul>
+<div *ngFor="let lan of languages" class="language-container">
+  <div class="language-bar"></div>
 
-
+  <div class="language-content">
+    <div class="language-name">{{ lan.languages }}</div>
+   
+  </div>
+</div>

@@ -1,9 +1,7 @@
-<h3>Interests !</h3>
-<ul *ngFor="let in of interests">
-  <li>
-    {{ in.interest}}
+<h3>Interests</h3>
 
-  </li>
-</ul>
-
-
+<div class="interests-container">
+  <span *ngFor="let in of interests; let last = last">
+    {{ in.interest }}<span *ngIf="!last"> | </span>
+  </span>
+</div>

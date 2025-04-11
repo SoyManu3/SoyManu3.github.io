@@ -1,14 +1,20 @@
 <h3>Skills !</h3>
-<h5>hardSkills</h5>
-<ul *ngFor="let skill of skills">
-  <li>
-     {{ skill.hardSkills }}<br>
-  </li>
-</ul>
-<br>
-<h5>softSkills</h5>
-<ul *ngFor="let skill of skills">
-  <li>
-     {{ skill.softSkills }}
-  </li>
-</ul>
+<h5>Hard Skills</h5>
+<div *ngFor="let skill of skills" class="skill-container">
+  <div class="skill-left">
+    <i class="fas fa-check-circle"></i>
+  </div>
+  <div class="skill-right">
+    <div class="skill-label">{{ skill.hardSkills }}</div>
+  </div>
+</div>
+
+<h5>Soft Skills</h5>
+<div *ngFor="let skill of skills" class="skill-container">
+  <div class="skill-left">
+    <i class="fas fa-check-circle"></i>
+  </div>
+  <div class="skill-right">
+    <div class="skill-label">{{ skill.softSkills }}</div>
+  </div>
+</div>
